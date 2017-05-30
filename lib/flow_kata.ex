@@ -73,10 +73,12 @@ defmodule FlowKata do
     end)
     # Tell Flow.reduce to emit the map as events, this will convert it to a keyword list
     |> Flow.emit(:events)
-    # Collect the flow into a map, while mapping the contents into simple tuples {city_name, avg}
-    # so the resulting maps looks like %{city_name => average}
-    |> Enum.into(%{}, fn
+    # Map the contents into simple tuples {city_name, avg}
+    # this results in a keyword list
+    |> Enum.map(fn
       {city, %{sum: sum, count: count}} -> {city, sum / count}
     end)
+    # Convert the keyword list into a map
+    |> Enum.into(%{})
   end
 end
