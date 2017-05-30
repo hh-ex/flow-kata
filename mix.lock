@@ -1,0 +1,4 @@
+%{"csv": {:hex, :csv, "2.0.0", "c66fea89ba7862b94901baf0871285e9b73cad89c5fdb57a6386d2adcf29593e", [:mix], [{:parallel_stream, "~> 1.0.4", [hex: :parallel_stream, repo: "hexpm", optional: false]}], "hexpm"},
+  "flow": {:hex, :flow, "0.11.1", "cbc35a0236520cc5fec7b5863cd8431cb1e77297c5c9119055676355eb1fb5a6", [:mix], [{:gen_stage, "~> 0.11.0", [hex: :gen_stage, repo: "hexpm", optional: false]}], "hexpm"},
+  "gen_stage": {:hex, :gen_stage, "0.11.0", "943bdfa85c75fa624e0a36a9d135baad20a523be040178f5a215444b45c66ea4", [:mix], [], "hexpm"},
+  "parallel_stream": {:hex, :parallel_stream, "1.0.5", "4c78d3e675f9eff885cbe252c89a8fc1d2fb803c0d03a914281e587834e09431", [:mix], [], "hexpm"}}
