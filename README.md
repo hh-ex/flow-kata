@@ -18,3 +18,11 @@ You can test your implementations individually:
  * `city_names`: `mix test test/flow_kata_test.exs:23`
  * `average`: `mix test test/flow_kata_test.exs:28`
  * `average_by_city`: `mix test test/flow_kata_test.exs:32`
+
+## If you need help
+
+This repository contains 3 branches:
+
+ * `master`: skeleton where you have to write the implementation
+ * `tips`: skeleton with tips inside the function bodies
+ * `solution`: complete solution with explanatory comments
