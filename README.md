@@ -1,19 +1,20 @@
-# FlowKata
+# Flow Kata
 
-**TODO: Add description**
+This kata is an introduction to flow and covers:
 
-## Installation
+ * Creating a flow from a data source
+ * The importance of partitions
+ * Map and reduce functions and how they behave differently from the `Enum` or `Stream` variants
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `flow_kata` to your list of dependencies in `mix.exs`:
+## How to solve the kata
 
-```elixir
-def deps do
-  [{:flow_kata, "~> 0.1.0"}]
-end
-```
+Implement the functions in `lib/flow_kata.ex`.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/flow_kata](https://hexdocs.pm/flow_kata).
+To test if you're doing the right thing, run `mix test`.
 
+You can test your implementations individually:
+
+ * `get_flow`: `mix test test/flow_kata_test.exs:9`
+ * `city_names`: `mix test test/flow_kata_test.exs:23`
+ * `average`: `mix test test/flow_kata_test.exs:28`
+ * `average_by_city`: `mix test test/flow_kata_test.exs:32`
