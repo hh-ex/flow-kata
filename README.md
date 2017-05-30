@@ -23,6 +23,6 @@ You can test your implementations individually:
 
 This repository contains 3 branches:
 
- * `master`: skeleton where you have to write the implementation
- * `tips`: skeleton with tips inside the function bodies
- * `solution`: complete solution with explanatory comments
+ * `master`: skeleton where you have to write the implementation [show file](https://github.com/hh-ex/flow-kata/blob/master/lib/flow_kata.ex)
+ * `tips`: skeleton with tips inside the function bodies [show file](https://github.com/hh-ex/flow-kata/blob/tips/lib/flow_kata.ex)
+ * `solution`: complete solution with explanatory comments [show file](https://github.com/hh-ex/flow-kata/blob/solution/lib/flow_kata.ex)
